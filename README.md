@@ -29,8 +29,8 @@ https://jonrosenblum.github.io/challenge-1/
 
 ### Screenshot
 
-![screenshot](./assets/Screen%20Shot%202022-06-14%20at%203.58.57%20PM.png)
-![screenshot](./assets/Screen%20Shot%202022-06-14%20at%203.59.04%20PM.png)
+![screenshot](./Assets/Screen%20Shot%202022-06-14%20at%203.58.57%20PM.png)
+![screenshot](./Assets/Screen%20Shot%202022-06-14%20at%203.59.04%20PM.png)
 
 ## Contact
 
