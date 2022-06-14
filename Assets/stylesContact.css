@@ -1,0 +1,111 @@
+/* styles for contact.html */
+/* ---- Color Pallete ----
+    #494742 : medium brown;
+    #b8b8b8 :  light grey
+    #1E1D1C : dark grey
+    #F1F6F5 : offwhite
+    #F79459 : tangerine
+    #86c351 : Light green
+*/
+/* ----- Golbal Styles ----- */
+.bodyBackground {
+  background-image: url(assets/images/contactBackground.jpg);
+  background-size: cover;
+  height: 100%;
+}
+/* setting the height so we can space away from the footer */
+body {
+  height: 100%;
+}
+/* this wraps all the main content and subtracts the footer height then sets padding off of the footer */
+.wrap-content {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -50px;
+  /* Pad bottom by footer height */
+  padding: 0 0 50px;
+}
+/* ------ End Global Styles ------ */
+
+/* ------ Navbar Styles ------ */
+.navbar-custom {
+  background-color: #494742;
+}
+/* targets hamburger icon */
+.navbar-custom .navbar-toggler {
+  border-color: #f1f6f5;
+  color: #f1f6f5;
+}
+/* changes the text color for the nav bar */
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #f1f6f5;
+}
+/* sets hover color on nav */
+.nav-link:hover {
+  /* color: #EBC8A0; */
+  color: #f79459;
+}
+/* this colors the text of the active page important overrides bootstrap */
+.active {
+  color: #86c351 !important;
+}
+/* ------ End Navbar Styles ------ */
+
+/* ------ Main content styles ------ */
+
+/* ------ Jumbotron Styles ------ */
+.jumbotron {
+  background-color: #b8b8b8;
+  color: #1e1d1c;
+}
+.jumbotron h1 {
+  text-align: center;
+}
+
+.jumbotron a:hover {
+  color: #f79459;
+}
+.buttonHover button:hover {
+  color: #f79459;
+}
+/* ------ End Jumbotron Styles ------ */
+
+/* ------ Footer Styling ------ */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #494742;
+  border-top: solid #86c351;
+  color: #f1f6f5;
+}
+
+footer a {
+  color: #f1f6f5;
+}
+/* sets hover color on footer icons */
+footer a:hover {
+  color: #f79459;
+}
+/* ------ End Footer Styling ------ */
+
+/* ------ Media Query ------ */
+/* gets rid of the divider on the contact page for smaller screens */
+@media only screen and (min-width: 768px) {
+  /* this adds a border between the two columns on the contact page */
+  .border-between > [class*="col"]:before {
+    background: navy;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    width: 1px;
+    top: 0;
+  }
+  .border-between > [class*="col"]:first-child:before {
+    display: none;
+  }
+}
