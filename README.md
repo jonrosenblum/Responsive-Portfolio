@@ -2,40 +2,36 @@
 
 ## Description
 
-For this challenge, I was tasked with refactoring the codebase for Horiseon, a fictional marketing agency. 
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
 ### Acceptance Criteria
 
-GIVEN a webpage that meets accessibility standards
-WHEN I view the source code
-* THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-* THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-* THEN I find accessible alt attributes
-WHEN I view the heading attributes
-* THEN I find that they fall in sequential order
-WHEN I view the title element
-* THEN I find a concise, descriptive title
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
 
-The client has requested a landing page that is optimized for search engines and follows accessibility standards.
-
-### Work Completed
-
-* Added and optimized the website title
-* Fixed broken internal links
-* Refactored HTML to make use of semantic elements
-* Removed unnecessary CSS classes
-* Consolidated redundant CSS selectors and properties
-* Re-ordered CSS to follow HTML structure
-* Added alt attributes to images
+- THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+  WHEN I click one of the links in the navigation
+- THEN the UI scrolls to the corresponding section
+  WHEN I click on the link to the section about their work
+- THEN the UI scrolls to a section with titled images of the developer's applications
+  WHEN I am presented with the developer's first application
+- THEN that application's image should be larger in size than the others
+  WHEN I click on the images of the applications
+- THEN I am taken to that deployed application
+  WHEN I resize the page or view the site on various screens and devices
+- THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Website Link
+
 https://jonrosenblum.github.io/challenge-1/
 
 ### Screenshot
 
-![screenshot](./assets/Application%20SS.png)
+![screenshot](./assets/Screen%20Shot%202022-06-14%20at%203.58.57%20PM.png)
+![screenshot](./assets/Screen%20Shot%202022-06-14%20at%203.59.04%20PM.png)
 
 ## Contact
+
 [Jon Rosenblum on GitHub](http://github.com/jonrosenblum)
