@@ -25,7 +25,7 @@ WHEN I load their portfolio
 
 ### Website Link
 
-https://jonrosenblum.github.io/challenge-1/
+https://jonrosenblum.github.io/Responsive-Portfolio/
 
 ### Screenshot
 
